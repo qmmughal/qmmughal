@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Qaiser Mughal
+# Hi, I'm Qaiser Mehmood
 
 ### Architect of AI-Native & Enterprise Software
 
@@ -118,8 +118,12 @@ Production-oriented pipeline with migrations, docker-compose, and a Next.js dash
 
 ### GitHub Stats
 
-![Qaiser's GitHub Stats](https://github-readme-stats.vercel.app/api?username=qmmughal&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=qmmughal&layout=compact&theme=tokyonight&hide_border=true)
+<a href="https://github.com/qmmughal">
+  <img height="165" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=qmmughal&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="Qaiser Mehmood GitHub Stats" />
+</a>
+<a href="https://github.com/qmmughal">
+  <img height="165" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=qmmughal&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Qaiser Mehmood Top Languages" />
+</a>
 
 ---
 
