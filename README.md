@@ -133,6 +133,10 @@ Production-oriented pipeline with migrations, docker-compose, and a Next.js dash
 
 **Open to contract work** in Blazor/.NET architecture and AI agent tooling — reach out via the site below.
 
+What that looks like in practice: production ABP/Blazor enterprise architecture (see the starter kits above), paired with Claude Code skills that automate the exact review process this account itself went through — a sharper offer than generic ".NET developer available for hire."
+
+See [shipped work in CASE-STUDIES.md](CASE-STUDIES.md) for working software, not just source.
+
 [![GitHub](https://img.shields.io/badge/GitHub-qmmughal-181717?style=for-the-badge&logo=github)](https://github.com/qmmughal)
 [![Website](https://img.shields.io/badge/Site-qaisermehmood.info-0A66C2?style=for-the-badge)](http://www.qaisermehmood.info)
 
