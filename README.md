@@ -131,6 +131,8 @@ Production-oriented pipeline with migrations, docker-compose, and a Next.js dash
 
 > *"Build things that matter. Open source what you can. Label maturity honestly."*
 
+**Open to contract work** in Blazor/.NET architecture and AI agent tooling — reach out via the site below.
+
 [![GitHub](https://img.shields.io/badge/GitHub-qmmughal-181717?style=for-the-badge&logo=github)](https://github.com/qmmughal)
 [![Website](https://img.shields.io/badge/Site-qaisermehmood.info-0A66C2?style=for-the-badge)](http://www.qaisermehmood.info)
 
