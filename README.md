@@ -1,5 +1,3 @@
-<div align="center">
-
 # Hi, I'm Qaiser Mehmood
 
 ### Architect of AI-Native & Enterprise Software
@@ -23,8 +21,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-</div>
+![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 
 ---
 
@@ -90,6 +87,19 @@ Production-oriented pipeline with migrations, docker-compose, and a Next.js dash
 
 ---
 
+### Database & DBA tools
+
+#### [sql-recyclebin](https://github.com/qmmughal/sql-recyclebin) — *A recycle bin for SQL Server*
+> Undo an accidental `DELETE`/`UPDATE` with one command — no restore, no downtime
+
+Trigger-based capture with rows stored as JSON, so schema changes never break the safety net. Runs on every SQL Server edition since 2017, including Express. Source-available (PolyForm Noncommercial) with a commercial tier for production use.
+
+[Live site & pricing](https://sqlrecyclebin.com) · [Demo & docs](https://github.com/qmmughal/sql-recyclebin)
+
+`T-SQL` `SQL Server` `#disaster-recovery` `#dba-tools`
+
+---
+
 ### Blazor libraries & demos
 
 #### [ckeditor5-blazor](https://github.com/qmmughal/ckeditor5-blazor) — *CKEditor 5 for Blazor*
@@ -113,8 +123,6 @@ Production-oriented pipeline with migrations, docker-compose, and a Next.js dash
 > Oil-change tracking on iOS/Android
 
 ---
-
-<div align="center">
 
 ### GitHub Stats
 
@@ -141,5 +149,3 @@ See [shipped work in CASE-STUDIES.md](CASE-STUDIES.md) for working software, not
 [![Website](https://img.shields.io/badge/Site-qaisermehmood.info-0A66C2?style=for-the-badge)](http://www.qaisermehmood.info)
 
 *If a project helped you, a star helps others find it.*
-
-</div>
