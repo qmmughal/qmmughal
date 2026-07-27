@@ -41,6 +41,8 @@
 | AI code tools that rewrite everything and hope | Every agent returns a confidence score and citations — nothing overwrites without evidence |
 | No visibility into what an upgrade actually changed | Real build/test/security validation, then a generated PR with the full upgrade report |
 
+[Website](https://upgradepilot.ai/) · [Source](https://github.com/qmmughal/upgradepilot-core)
+
 `C#` `.NET 10` `Roslyn` `MCP` `ASP.NET Zero` `ABP Framework` `#ai-agents` `#framework-upgrade`
 
 ---
