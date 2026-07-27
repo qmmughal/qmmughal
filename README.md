@@ -30,6 +30,21 @@
 
 ### AI & agents
 
+#### [UpgradePilot](https://github.com/qmmughal/upgradepilot-core) — *AI-powered .NET framework upgrade pipeline*
+> 20-agent pipeline that upgrades ASP.NET Zero / ABP Framework / .NET apps without silently overwriting customizations
+
+**Status: 19/20 agents implemented, 112 tests passing.** Every agent is real, not an LLM-prompt wrapper: actual `dotnet build`/`dotnet test`/`dotnet ef` invocations, real `git`/`gh` operations, real Roslyn AST diff/merge, real NuGet vulnerability scans. Open-core — this repo is Apache-2.0; the hosted multi-tenant product is closed-source.
+
+| Pain | Direction |
+| --- | --- |
+| Manual framework upgrades take weeks and risk breaking custom code | Roslyn-based semantic three-way merge: auto-propagates safe template changes, flags everything else as an explicit conflict |
+| AI code tools that rewrite everything and hope | Every agent returns a confidence score and citations — nothing overwrites without evidence |
+| No visibility into what an upgrade actually changed | Real build/test/security validation, then a generated PR with the full upgrade report |
+
+`C#` `.NET 10` `Roslyn` `MCP` `ASP.NET Zero` `ABP Framework` `#ai-agents` `#framework-upgrade`
+
+---
+
 #### [AgentWire](https://github.com/qmmughal/AgentWire) — *AI observability gateway (Alpha)*
 > OpenTelemetry-inspired monitoring for agents, LLMs, and MCP traffic
 
