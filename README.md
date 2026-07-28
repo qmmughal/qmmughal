@@ -62,12 +62,12 @@
 
 ---
 
-#### [routellm](https://github.com/qmmughal/routellm) — *Smart LLM Router & Fallback Proxy*
+#### [smart-slm-router](https://github.com/qmmughal/smart-slm-router) — *Smart SLM Router & Fallback Proxy*
 > Sub-15ms local classifier & cost-optimizing fallback proxy compatible with OpenAI API
 
 Evaluates prompt complexity locally, routes simple queries to SLMs (Ollama/gpt-4o-mini), and automatically escalates complex tasks or errors to Tier-1 models (GPT-4o/Claude 3.5). Reduces API spend by up to 80%.
 
-`Python` `FastAPI` `OpenAI` `Ollama` `#llm-router` `#fallback-proxy`
+`Python` `FastAPI` `OpenAI` `Ollama` `#slm-router` `#fallback-proxy`
 
 ---
 
