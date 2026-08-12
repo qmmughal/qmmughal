@@ -47,18 +47,20 @@
 
 ---
 
-#### [AgentWire](https://github.com/qmmughal/AgentWire) — *AI observability gateway (Alpha)*
-> OpenTelemetry-inspired monitoring for agents, LLMs, and MCP traffic
+#### [AgentWire](https://github.com/qmmughal/AgentWire) — *100% Open Source AI Observability & Security Gateway*
+> OpenTelemetry + Wireshark + Cloudflare for AI Agents, LLMs, and MCP servers
 
-**Status: Alpha / MVP.** Local ingest + cost endpoints run today; gateway security/replay are on the roadmap.
+**100% Free & Open Source (Apache 2.0)** — Zero commercial paywalls, open-core splits, or proprietary tiers. Built for real-time observability, security guardrails, cost attribution, and multi-tenant governance.
 
-| Pain | Direction |
+| Pain | AgentWire Open-Source Solution |
 |---|---|
-| Unattributed LLM spend | Cost rollups by model / packet |
-| Opaque agent traces | Trace ingest + packet inspection API |
-| Hard to secure agent traffic | Planned security scanner & guardrails |
+| 💸 Unattributed LLM spend | **Cost Intelligence** — cost rollups by model, project, and packet |
+| 🌫️ Opaque agent traces & hallucinations | **Live Traffic Monitor & Replay Engine** — trace ingest, packet inspection & state replay |
+| 🔓 Prompt injection & security threats | **Security Scanner** — prompt injection, PII leakage detection & guardrails |
+| 🏢 Complex multi-tenant compliance | **Governance** — built-in RBAC, SSO (OIDC/SAML), and immutable audit logs |
 
-`C#` `.NET 10` `ASP.NET Core` `Next.js` `#ai-observability` `#mcp`
+`C#` `.NET 10` `ASP.NET Core` `ClickHouse` `PostgreSQL` `Next.js` `#ai-observability` `#mcp` `#open-source`
+
 
 ---
 
