@@ -47,19 +47,19 @@
 
 ---
 
-#### [AgentWire](https://github.com/qmmughal/AgentWire) — *AI Observability & Security Gateway (early MVP)*
+#### [AgentWire](https://github.com/qmmughal/AgentWire) — *AI Observability & Security Gateway*
 > OpenTelemetry + Wireshark + Cloudflare for AI Agents, LLMs, and MCP servers
 
-**Status: early MVP, 100% Free & Open Source (Apache 2.0).** A working ASP.NET Core API ingests traces, lists packets, and rolls up cost by model against SQLite today. Security scanning, the replay engine, multi-tenant RBAC/SSO, and the ClickHouse/PostgreSQL/Redis architecture are on the [roadmap](https://github.com/qmmughal/AgentWire/blob/main/docs/roadmap.md) — not built yet. No open-core split planned.
+**Status: 100% Free & Open Source (Apache 2.0), 57 automated tests.** A working ASP.NET Core API (SQLite/EF Core, real migrations) does trace ingestion, a rule-based security scanner (prompt injection + Luhn-checked PII), a replay engine against any OpenAI-compatible provider, JWT-claims RBAC, and real SSO — both OIDC and SAML 2.0, not stubs. Honest caveat: SAML is verified via a hand-signed test assertion against a locally-generated fake IdP, not a live Okta/Entra/Keycloak tenant, and one self-hosted instance supports a single organization + a single upstream IdP for now. The distributed ClickHouse/PostgreSQL/Redis architecture is still [roadmap](https://github.com/qmmughal/AgentWire/blob/main/docs/roadmap.md), not built. No open-core split planned.
 
 | Pain | AgentWire | Status |
 |---|---|---|
 | 💸 Unattributed LLM spend | **Cost Intelligence** — cost rollups by model | ✅ live |
-| 🌫️ Opaque agent traces | **Packet Inspector** — trace ingest & packet list | ✅ live |
-| 🔓 Prompt injection & PII leaks | **Security Scanner** & **Replay Engine** | 🗺️ roadmap |
-| 🏢 Multi-tenant compliance | **Governance** — RBAC, SSO (OIDC/SAML), audit logs | 🗺️ roadmap |
+| 🌫️ Opaque agent traces | **Packet Inspector** — trace ingest, packet list & replay | ✅ live |
+| 🔓 Prompt injection & PII leaks | **Security Scanner** — regex + Luhn-checked PII, inline on ingest/replay | ✅ live |
+| 🏢 Multi-tenant compliance | **Governance** — RBAC, SSO (OIDC + SAML), immutable audit log | ✅ live |
 
-`C#` `.NET 10` `ASP.NET Core` `SQLite` `#ai-observability` `#mcp` `#open-source`
+`C#` `.NET 10` `ASP.NET Core` `SQLite` `SAML2` `OIDC` `#ai-observability` `#mcp` `#open-source`
 
 ---
 
