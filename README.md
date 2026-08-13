@@ -47,20 +47,19 @@
 
 ---
 
-#### [AgentWire](https://github.com/qmmughal/AgentWire) — *100% Open Source AI Observability & Security Gateway*
+#### [AgentWire](https://github.com/qmmughal/AgentWire) — *AI Observability & Security Gateway (early MVP)*
 > OpenTelemetry + Wireshark + Cloudflare for AI Agents, LLMs, and MCP servers
 
-**100% Free & Open Source (Apache 2.0)** — Zero commercial paywalls, open-core splits, or proprietary tiers. Built for real-time observability, security guardrails, cost attribution, and multi-tenant governance.
+**Status: early MVP, 100% Free & Open Source (Apache 2.0).** A working ASP.NET Core API ingests traces, lists packets, and rolls up cost by model against SQLite today. Security scanning, the replay engine, multi-tenant RBAC/SSO, and the ClickHouse/PostgreSQL/Redis architecture are on the [roadmap](https://github.com/qmmughal/AgentWire/blob/main/docs/roadmap.md) — not built yet. No open-core split planned.
 
-| Pain | AgentWire Open-Source Solution |
-|---|---|
-| 💸 Unattributed LLM spend | **Cost Intelligence** — cost rollups by model, project, and packet |
-| 🌫️ Opaque agent traces & hallucinations | **Live Traffic Monitor & Replay Engine** — trace ingest, packet inspection & state replay |
-| 🔓 Prompt injection & security threats | **Security Scanner** — prompt injection, PII leakage detection & guardrails |
-| 🏢 Complex multi-tenant compliance | **Governance** — built-in RBAC, SSO (OIDC/SAML), and immutable audit logs |
+| Pain | AgentWire | Status |
+|---|---|---|
+| 💸 Unattributed LLM spend | **Cost Intelligence** — cost rollups by model | ✅ live |
+| 🌫️ Opaque agent traces | **Packet Inspector** — trace ingest & packet list | ✅ live |
+| 🔓 Prompt injection & PII leaks | **Security Scanner** & **Replay Engine** | 🗺️ roadmap |
+| 🏢 Multi-tenant compliance | **Governance** — RBAC, SSO (OIDC/SAML), audit logs | 🗺️ roadmap |
 
-`C#` `.NET 10` `ASP.NET Core` `ClickHouse` `PostgreSQL` `Next.js` `#ai-observability` `#mcp` `#open-source`
-
+`C#` `.NET 10` `ASP.NET Core` `SQLite` `#ai-observability` `#mcp` `#open-source`
 
 ---
 
