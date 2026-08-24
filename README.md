@@ -16,6 +16,7 @@
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -30,20 +31,21 @@
 
 ### AI & agents
 
-#### [UpgradePilot](https://github.com/qmmughal/upgradepilot-core) — *AI-powered .NET framework upgrade pipeline*
-> 20-agent pipeline that upgrades ASP.NET Zero / ABP Framework / .NET apps without silently overwriting customizations
+#### [UpgradePilot](https://github.com/qmmughal/upgradepilot-core) — *AI-powered upgrade pipeline for .NET, React & Next.js*
+> 20-agent pipeline that upgrades ASP.NET Zero / ABP Framework / .NET, React, and Next.js apps — including mixed .NET+frontend repos — without silently overwriting customizations
 
-**Status: 19/20 agents implemented, 112 tests passing.** Every agent is real, not an LLM-prompt wrapper: actual `dotnet build`/`dotnet test`/`dotnet ef` invocations, real `git`/`gh` operations, real Roslyn AST diff/merge, real NuGet vulnerability scans. Open-core — this repo is Apache-2.0; the hosted multi-tenant product is closed-source.
+**Status: 19/20 agents implemented, 179 tests passing.** Every agent is real, not an LLM-prompt wrapper: actual `dotnet build`/`dotnet test`/`dotnet ef`/`npm install`/`npm run build` invocations, real `git`/`gh` operations, real Roslyn AST diff/merge, real `react-codemod`/`@next/codemod` transforms (verified against the real transform names, not guessed), real NuGet/npm outdated-package and vulnerability scans. Open-core — this repo is Apache-2.0; the hosted multi-tenant product is closed-source.
 
 | Pain | Direction |
 | --- | --- |
 | Manual framework upgrades take weeks and risk breaking custom code | Roslyn-based semantic three-way merge: auto-propagates safe template changes, flags everything else as an explicit conflict |
 | AI code tools that rewrite everything and hope | Every agent returns a confidence score and citations — nothing overwrites without evidence |
+| Mixed .NET + React/Next.js repos need coordinated upgrades, not two disconnected runs | Backend upgrades and validates first, then the frontend runs through the same real pipeline |
 | No visibility into what an upgrade actually changed | Real build/test/security validation, then a generated PR with the full upgrade report |
 
 [Website](https://upgradepilot.ai/) · [Source](https://github.com/qmmughal/upgradepilot-core)
 
-`C#` `.NET 10` `Roslyn` `MCP` `ASP.NET Zero` `ABP Framework` `#ai-agents` `#framework-upgrade`
+`C#` `.NET 10` `React` `Next.js` `Roslyn` `MCP` `ASP.NET Zero` `ABP Framework` `#ai-agents` `#framework-upgrade`
 
 ---
 
