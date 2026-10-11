@@ -97,6 +97,17 @@ Production-oriented pipeline with migrations, docker-compose, and a Next.js dash
 
 ---
 
+#### [Titan Email MCP](https://github.com/qmmughal/titan-email-mcp) — *Connect Claude to a Titan Email mailbox over IMAP/SMTP*
+> Published on npm — `npx titan-email-mcp` and any MCP client can read, search, triage, and send mail
+
+**Status: published on npm, MIT licensed, CI-tested on Node 18/20/22.** Titan Email has no public REST API, so this talks to its standard IMAP/SMTP endpoints directly. Ten focused tools — list/search/read/send/reply/draft/move/flag, plus a `test_connection` diagnostic for setup — with built-in provider presets so a Titan mailbox bought **through GoDaddy** (different hostnames under the hood) works with one env var. Sending is gated behind `TITAN_ALLOW_SEND` so you can run read-only until you trust it.
+
+[npm](https://www.npmjs.com/package/titan-email-mcp) · [Source](https://github.com/qmmughal/titan-email-mcp)
+
+`TypeScript` `MCP` `IMAP` `SMTP` `Node.js` `#email` `#claude` `#godaddy`
+
+---
+
 ### Claude Code skills (Blazor)
 
 #### [aspnetzero-blazor-telerik.skill](https://github.com/qmmughal/aspnetzero-blazor-telerik.skill) — *ANZ / ABP + Telerik Blazor*
