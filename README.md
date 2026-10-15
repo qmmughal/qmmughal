@@ -157,8 +157,14 @@ Trigger-based capture with rows stored as JSON, so schema changes never break th
 #### [media-qa-bot](https://github.com/qmmughal/media-qa-bot) — *Ads campaign reconciliation*
 > Asana (source of truth) vs Google Ads / Meta — catch budget & date setup errors
 
-#### [wifi-monitor](https://github.com/qmmughal/wifi-monitor) — *Local WiFi dashboard + CLI*
-> Browser dashboard + Python CLI; uses available Web APIs and documents simulation limits
+#### [Internet Monitor](https://github.com/qmmughal/internet-monitor) — *Local-first internet & Wi-Fi monitor (formerly wifi-monitor)*
+> Answers "why is my internet slow?" and "which app is using it?" — any connection (Wi-Fi, Ethernet, VPN), with evidence for every conclusion
+
+**Status: working, MIT licensed, CI-tested on Windows, Linux and macOS (Python 3.9 / 3.12); verified on real Windows 11 hardware over Ethernet and Wi-Fi.** Linux and macOS run on captured command output in CI but haven't been tested on real hardware yet. A Python CLI plus a loopback-only local dashboard. It shows live upload/download for any connection type and per-app data usage. On Windows that needs no admin rights: it reads the system's own usage records. Other features: a staged troubleshooter (link → router → DNS → HTTPS → latency) that explains each finding, history with explainable anomaly alerts, Wi-Fi signal/channel/generation, and device discovery. Optional extras: Claude or local-LLM explanations (off by default, redacted), a token-authenticated multi-machine hub, Prometheus and Home Assistant/MQTT. Every value is tagged *measured*, *estimated* or *simulated* — nothing is invented to fill a gap.
+
+[Source](https://github.com/qmmughal/internet-monitor) · [Usage guide](https://github.com/qmmughal/internet-monitor/blob/main/docs/USAGE.md) · [What each OS can measure](https://github.com/qmmughal/internet-monitor/blob/main/docs/CAPABILITIES.md)
+
+`Python` `JavaScript` `psutil` `WinRT` `Prometheus` `#networking` `#diagnostics` `#privacy`
 
 #### [car-maintenance](https://github.com/qmmughal/car-maintenance) — *.NET MAUI reference app*
 > Oil-change tracking on iOS/Android
