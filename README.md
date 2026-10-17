@@ -135,7 +135,7 @@ Production-oriented pipeline with migrations, docker-compose, and a Next.js dash
 
 Trigger-based capture with rows stored as JSON, so schema changes never break the safety net. Runs on every SQL Server edition since 2017, including Express. Source-available (PolyForm Noncommercial) with a commercial tier for production use. Also available as a PowerShell module — `Install-Module SqlRecycleBin` gives you 13 cmdlets (`Install-SqlRecycleBin`, `Restore-SqlRecycleBinLast`, etc.) instead of raw T-SQL.
 
-[Live site & pricing](https://sqlrecyclebin.com) · [Demo & docs](https://github.com/qmmughal/sql-recyclebin) · [PowerShell Gallery](https://www.powershellgallery.com/packages/SqlRecycleBin)
+[Live site & pricing](http://sqlrecyclebin.com) · [Demo & docs](https://github.com/qmmughal/sql-recyclebin) · [PowerShell Gallery](https://www.powershellgallery.com/packages/SqlRecycleBin)
 
 `T-SQL` `SQL Server` `PowerShell` `#disaster-recovery` `#dba-tools`
 
